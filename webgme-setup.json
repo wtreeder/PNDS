@@ -1,4 +1,12 @@
 {
-  "components": {},
-  "dependencies": {}
+  "components": {
+    "seeds": {
+      "PNDS": {
+        "src": "src/seeds/PNDS"
+      }
+    }
+  },
+  "dependencies": {
+    "seeds": {}
+  }
 }
