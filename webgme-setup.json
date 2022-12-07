@@ -4,9 +4,19 @@
       "PNDS": {
         "src": "src/seeds/PNDS"
       }
+    },
+    "visualizers": {
+      "PetriNetSim": {
+        "src": "panels/PetriNetSim/PetriNetSimPanel",
+        "title": "PetriNetSim",
+        "panel": "src/visualizers/panels/PetriNetSim",
+        "secondary": false,
+        "widget": "src/visualizers/widgets/PetriNetSim"
+      }
     }
   },
   "dependencies": {
-    "seeds": {}
+    "seeds": {},
+    "visualizers": {}
   }
 }
